@@ -3,7 +3,7 @@
 import React from 'react' 
 
 const CatList = (props) => {
-    const cats = props.catPics.map((catPic) => { <img key={catPic.id} src={catPic.url} alt={catPic.id}/>})
+    const cats = props.catPics.map((catPic) =>  <img key={catPic.id} src={catPic.url} alt={catPic.id}/>)
     return(
         <div>
             {cats}
